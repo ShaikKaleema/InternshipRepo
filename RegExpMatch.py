@@ -8,6 +8,7 @@ e.g. :
     Output: true
     Explanation: '*' means zero or more of the preceding element, 'a'. Therefore, by repeating 'a' once, it becomes "aa".
 '''
+s
 class Solution:
     def isMatch(self, s: str, p: str) -> bool:
         l1=len(s)
@@ -31,4 +32,5 @@ class Solution:
                         mat[i][j]=mat[i][j] or mat[i-1][j]
                         
         return mat[l1][l2]
-        
+    m=isMatch(
+   
