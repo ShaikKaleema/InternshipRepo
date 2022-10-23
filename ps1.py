@@ -18,3 +18,4 @@ for j in range(T):
         print('YES')
     else:
         print('NO')
+        
