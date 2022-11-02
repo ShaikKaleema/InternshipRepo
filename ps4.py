@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 #Break the stick
 T=int(input())
 for i in range(T):
@@ -11,7 +10,6 @@ for i in range(T):
         else:
             print('YES')
     
-=======
 '''Problem : Break the stick
 Chef has a stick of length NN.
 He can break the stick into 22 or more parts such that the parity of length of each part is same. For example, a stick of length 1111 can be broken into three sticks of lengths \{3, 3, 5\}{3,3,5} since each part is odd, but it cannot be broken into two sticks of lengths \{5, 6\}{5,6} since one is even and the other is odd.
@@ -35,4 +33,3 @@ for i in range(T):
         else:
             print('YES')
     
->>>>>>> 97be87de4448efbba274d675595b0f1206059fbc
